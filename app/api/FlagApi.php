@@ -20,8 +20,9 @@ class FlagApi
         if ($mesBanco != $mes) {           
             $saldo->atualizaSaldo(1, 'Atualiza Grafico Patrimonio', 'Atualiza Grafico Patrimonio', 0);
             $saldo->atualizaSaldo(-1, 'Atualiza Grafico Patrimonio', 'Atualiza Grafico Patrimonio', 0);
-            $flag->data_registro = date("Y/m/d"); 
-            $flag->save();    
+            $update = $flag->find($flagId);
+            $update->data_registro = date("Y/m/d"); 
+            $update->save();    
         }
     }
 }
