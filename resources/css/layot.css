@@ -1,0 +1,38 @@
+@charset "UTF-8";
+#menu_laterira{
+	float:left;
+	
+	margin-left: 5px;
+	margin-right: 7px;
+	margin-top: 15px;
+}
+#painel{
+	width: 70%;
+	height: 20%;
+	margin-top: 20px;
+	margin-bottom: 1px;
+	
+}
+.intemPaine {
+	width: 110px;
+	height: 110px;
+	
+}
+.fonte{
+	font-size:14px;
+
+	
+}
+.abaixo{
+	background-color:red;
+}
+#conteudo{
+    
+    
+	margin-top: 10px;
+    position: static;
+	width: 83%;
+	height: 99%;
+	float:right;
+    margin-right: 8%; 
+}

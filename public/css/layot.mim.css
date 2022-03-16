@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+#menu_laterira {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+#painel {
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+}
+
+.intemPaine {
+	width: 110px;
+	height: 110px;
+}
+
+.fonte {
+	font-size: 14px;
+}
+
+.abaixo {
+	background-color: red;
+}
+
+#conteudo {
+	margin-top: 10px;
+	position: static;
+	width: 84%;
+	height: 20%;
+	float: right;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+}
+#movel {
+		width: 10rem !important;
+		
+	}
+
+@media only screen and (max-width: 1280px) {
+	#conteudo {
+		width: 80% !important;
+	    margin-left: 2% !important;
+	    margin-right: 2% !important;
+	    
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	#menu_laterira {
+		margin-left: 1px;
+		margin-right: 1px;
+		margin-top: 1px;
+	}
+}
+
