@@ -10,7 +10,7 @@ namespace App\Funcoes;
             $arquivo = fopen('../logs/logs.log','a+'); 
             $texto = " " ;
             $texto .=  "### data log ---> ".date('d/m/y H:i:s');
-            $texto .="----# ". $mensagem ." #----";
+            $texto .="  >>>>> : ". $mensagem ."  >>>>> #";
             $texto .= PHP_EOL;
             fwrite($arquivo, $texto);
             fclose($arquivo);        
