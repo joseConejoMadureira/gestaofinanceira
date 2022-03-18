@@ -6,12 +6,15 @@ use App\Models\Investimentos;
 use Illuminate\Support\Facades\DB;
 use App\Models\Saldo;
 use PhpParser\Node\Stmt\Foreach_;
-
+use  App\Funcoes\LogsE;
 class SaldoApi
 {
     function getSaldoAtualizado()
     {
-        $saldo = Saldo::all()->sortByDesc('id')->take(1);    
+        $saldo = Saldo::all()->sortByDesc('id')->take(1);  
+        //Logs  
+        LogsE::escrever("saldo funcão get saldo atualizado ". strval(Saldo::all()) );        
+
         return $saldo->pluck("valor_atualizado")->first();
     }
     function getListaSaldo()

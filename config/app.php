@@ -122,7 +122,17 @@ return [
     'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
-
+    /*
+    |--------------------------------------------------------------------------
+    | Logs
+    |--------------------------------------------------------------------------
+    | 0 - log destivado 
+    | 1 - log ativado
+    | 
+    | 
+    |
+    */
+    'logs' =>'1',
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
@@ -133,6 +143,8 @@ return [
     | this array to grant expanded functionality to your applications.
     |
     */
+    
+    
 
     'providers' => [
 
