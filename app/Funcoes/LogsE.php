@@ -20,10 +20,11 @@ class LogsE
                 fwrite($arquivo, $texto);
                 fclose($arquivo);
             } catch (Exception $e) {
-                $erro = '<span style="color:#FF0000;text-align:center;">';
-                $erro .= $e->getMessage();
-                $erro .= '</span>';
+                $erro = '<script>';
+                $erro .= 'console.log('. json_encode( $e->getMessage()) .')' ;
+                $erro .= '</script>';
                 echo $erro;
+                
             }
         }
     }
