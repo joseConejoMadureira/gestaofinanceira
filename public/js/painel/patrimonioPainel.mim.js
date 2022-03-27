@@ -11,9 +11,9 @@ xmlhttp.open(method, url, !0),
             }),
                 google.charts.setOnLoadCallback(function () {
                     var e = google.visualization.arrayToDataTable([
-                            ["Label", "value"],
-                            ["patrimonio", 0],
-                        ]),
+                        ["Label", "value"],
+                        ["patrimonio", 0],
+                    ]),
                         a = {
                             redFrom: 0,
                             redTo: t.investimentos,

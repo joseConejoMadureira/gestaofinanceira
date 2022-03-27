@@ -1,5 +1,5 @@
 var investimentosHTTP = new XMLHttpRequest;
-investimentosHTTP.onreadystatechange = function() {
+investimentosHTTP.onreadystatechange = function () {
     if (4 == this.readyState && 200 == this.status) {
         var t = "";
         t = this.response.toString(), document.getElementById("investimentos").innerHTML = currency(t.toString(), {

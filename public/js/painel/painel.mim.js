@@ -76,21 +76,6 @@ livrehttp.onreadystatechange = function () {
 
 livrehttp.open("GET", "/livre", true);
 livrehttp.send();
-//investir
-/*
-					  var investirHTTP = new XMLHttpRequest();
-					  investirHTTP.onreadystatechange = function() {
-					    if (this.readyState == 4 && this.status == 200) {
-					       var investir = "";
-					       investir = this.response.toString();
-					       document.getElementById("investir").innerHTML =    currency(investir.toString(), { separator: ' ' }).format();
-
-					    }
-					  };
-
-					  investirHTTP.open("GET", "/investir", true);
-					  investirHTTP.send();
-*/
 
 //equi fim
 var equiFimHTTP = new XMLHttpRequest();

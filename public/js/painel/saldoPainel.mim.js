@@ -4,17 +4,17 @@ var xhttp = new XMLHttpRequest();
         var t = "";
         (t = this.response.toString()) < 0
             ? ((document.getElementById("saldoMesNegativo").innerHTML =
-                  "Saldo Mes: " +
-                  currency(t.toString(), {
-                      separator: " ",
-                  }).format()),
-              (document.getElementById("saldoMesNegativo").style.display = ""))
+                "Saldo Mes: " +
+                currency(t.toString(), {
+                    separator: " ",
+                }).format()),
+                (document.getElementById("saldoMesNegativo").style.display = ""))
             : ((document.getElementById("saldoMesPositivo").innerHTML =
-                  "Saldo Mes: " +
-                  currency(t.toString(), {
-                      separator: " ",
-                  }).format()),
-              (document.getElementById("saldoMesPositivo").style.display = ""));
+                "Saldo Mes: " +
+                currency(t.toString(), {
+                    separator: " ",
+                }).format()),
+                (document.getElementById("saldoMesPositivo").style.display = ""));
     }
 }),
     xhttp.open("GET", "/saldoMes", !0),
@@ -26,17 +26,17 @@ var saldoAcoesAno = new XMLHttpRequest();
         var t = "";
         (t = this.response.toString()) < 0
             ? ((document.getElementById("saldoAnoNegativo").innerHTML =
-                  "Saldo Ano: " +
-                  currency(t.toString(), {
-                      separator: " ",
-                  }).format()),
-              (document.getElementById("saldoAnoNegativo").style.display = ""))
+                "Saldo Ano: " +
+                currency(t.toString(), {
+                    separator: " ",
+                }).format()),
+                (document.getElementById("saldoAnoNegativo").style.display = ""))
             : ((document.getElementById("saldoAnoPositivo").innerHTML =
-                  "Saldo Ano: " +
-                  currency(t.toString(), {
-                      separator: " ",
-                  }).format()),
-              (document.getElementById("saldoAnoPositivo").style.display = ""));
+                "Saldo Ano: " +
+                currency(t.toString(), {
+                    separator: " ",
+                }).format()),
+                (document.getElementById("saldoAnoPositivo").style.display = ""));
     }
 }),
     saldoAcoesAno.open("GET", "/saldoAno", !0),
