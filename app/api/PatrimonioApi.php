@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\DB;
 use App\Models\Patrimonio;
 use App\api\CustoAPi;
 use App\Funcoes\LogsE;
+use Illuminate\Support\Facades\Log;
 
 class PatrimonioApi
 {
@@ -37,8 +38,9 @@ class PatrimonioApi
         $patrimonio->data_registro = date("Y/m/d");
         $patrimonio->valor = $patrimonioAdd;
         $patrimonio->save();
-        LogsE::escrever("funcao atualizaPatrimonio()".strval($patrimonio));
-    }
+        
+        Log::debug('Atualiza Patrimonio: '. strval($this->getPatrimonio()));
+       }
 
     function getInvestimentos()
     {
