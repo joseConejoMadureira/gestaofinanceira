@@ -58,7 +58,7 @@ INSERT INTO public.investimentos (data_registro,valor,modalidade,valor_atualizad
 	 ('2022-03-16',0,'carga inicial',0);
 
 INSERT INTO public.custos (data_registro,valor,descricao) VALUES
-	 ('2021-07-30',0,'lazer');
+	 ('2021-07-30',1,'lazer');
 	
 	 INSERT INTO public.meta (objetivo,mes,equiinic,equifim) VALUES
 	 (30000.0,4000.0,10000.0,15000.0);
