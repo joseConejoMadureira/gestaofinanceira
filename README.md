@@ -59,7 +59,7 @@ INSERT INTO public.flag (data_registro) VALUES
 	 ('2022-01-01');
 
 ```
-####  Inciar server locoal 
+####  Inciar server local: http://127.0.0.1:8000 
 ```
 php artisan serve
 ```
