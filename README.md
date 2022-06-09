@@ -81,3 +81,8 @@ email@email.com
 ```
 123
 ```
+####  Logs
+```
+http://127.0.0.1:8000/log-viewer
+
+```
