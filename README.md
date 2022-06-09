@@ -1,5 +1,5 @@
 # Sistema de gestão financeira
-Esse sistema tem como obejtivo ser uma ferramenta na qual auxilie 
+Esse sistema tem como Objetivo ser uma ferramenta na qual auxilie 
 gestão financeira contendo saldo de mes ano e graficos relativos.
 classificação de gastos e metas financeiras
 
