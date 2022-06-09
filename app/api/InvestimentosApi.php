@@ -43,7 +43,7 @@ class InvestimentosApi
 
         $saldo = new SaldoApi();
         $valor_aplica = $valor_aplica * -1;
-        $saldo->atualizaSaldo($valor_aplica, 'aplicacao bb multiestrategia', 'aplicacao', 0);
+        $saldo->atualizaSaldo($valor_aplica, 'Investimentos', 'aplicacao', 0);
     }
     //resgaste
     function ResgateInvestimento($valor_resgate)
