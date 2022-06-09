@@ -88,6 +88,18 @@ http://127.0.0.1:8000/log-viewer
 ```
 ## PREVIEW
 
-![Dashboard](https://github.com/joseEstudos/gestaofinanceira/blob/3ae59d4e6c3083df01efba39da7445b7e02666e7/preview/1-dashboard.jpg)
+![saldo](https://github.com/joseEstudos/gestaofinanceira/blob/fbe5bf18c36dbf31d16bbce3528bdf579c305f33/preview/saldo.jpg)
 
-![Patrimonio](https://github.com/joseEstudos/gestaofinanceira/blob/e20a66f85e11cb738e23f4fbde3793906c1a17a0/preview/patrimonio.jpg)
+![Patrimonio](https://github.com/joseEstudos/gestaofinanceira/blob/fbe5bf18c36dbf31d16bbce3528bdf579c305f33/preview/patrimonio.jpg)
+
+![gastos](https://github.com/joseEstudos/gestaofinanceira/blob/fbe5bf18c36dbf31d16bbce3528bdf579c305f33/preview/gastos.jpg)
+
+![investimentos](https://github.com/joseEstudos/gestaofinanceira/blob/fbe5bf18c36dbf31d16bbce3528bdf579c305f33/preview/investimentos.jpg)
+
+![lancagastos](https://github.com/joseEstudos/gestaofinanceira/blob/fbe5bf18c36dbf31d16bbce3528bdf579c305f33/preview/lancagastos.jpg)
+
+![meta](https://github.com/joseEstudos/gestaofinanceira/blob/fbe5bf18c36dbf31d16bbce3528bdf579c305f33/preview/meta.jpg)
+
+![parametrosDespesas](https://github.com/joseEstudos/gestaofinanceira/blob/fbe5bf18c36dbf31d16bbce3528bdf579c305f33/preview/parametrosDespesas.jpg)
+
+
