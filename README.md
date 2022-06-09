@@ -2,6 +2,10 @@
 Esse sistema tem como Objetivo ser uma ferramenta na qual auxilie 
 gestão financeira contendo saldo de mes ano e graficos relativos.
 classificação de gastos e metas financeiras
+##  Requisitos
+PHP 8.1.6 
+Composer 2.2.6
+postgresql
 
 ##  Instalação (comados a serem realizados dentro da pasta do projeto)
 ### copia base .env.example (arquivo de configuração )
