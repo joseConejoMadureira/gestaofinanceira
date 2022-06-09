@@ -1,9 +1,9 @@
 # Sistema de gestão financeira
-Esse sistema tem como proposito ser uma ferramenta na qual auxilie 
+Esse sistema tem como obejtivo ser uma ferramenta na qual auxilie 
 gestão financeira contendo saldo de mes ano e graficos relativos.
 classificação de gastos e metas financeiras
 
-##  Instalação 
+##  Instalação (comados a serem realizados dentro da pasta do projeto)
 ### copia base .env.example (arquivo de configuração )
 ```
 cp .env.example .env
@@ -57,7 +57,7 @@ INSERT INTO public.custos (data_registro,valor,descricao) VALUES
 
 INSERT INTO public.flag (data_registro) VALUES
 	 ('2022-01-01');
-     
+
 ```
 
 
