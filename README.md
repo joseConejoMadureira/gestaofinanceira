@@ -86,3 +86,6 @@ email@email.com
 http://127.0.0.1:8000/log-viewer
 
 ```
+## PREVIEW
+
+![Dashboard](https://raw.githubusercontent.com/ARCANEDEV/LogViewer/master/_screenshots/1-dashboard.jpg)
