@@ -89,3 +89,5 @@ http://127.0.0.1:8000/log-viewer
 ## PREVIEW
 
 ![Dashboard](https://github.com/joseEstudos/gestaofinanceira/blob/3ae59d4e6c3083df01efba39da7445b7e02666e7/preview/1-dashboard.jpg)
+
+![Patrimonio](https://github.com/joseEstudos/gestaofinanceira/blob/3ae59d4e6c3083df01efba39da7445b7e02666e7/preview/1-dashboard.jpg)
