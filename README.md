@@ -59,5 +59,17 @@ INSERT INTO public.flag (data_registro) VALUES
 	 ('2022-01-01');
 
 ```
+####  Inciar server locoal 
+```
+php artisan serve
+```
 
+####  E-Mail Address
+```
+email@email.com
+```
 
+####  Password
+```
+123
+```
