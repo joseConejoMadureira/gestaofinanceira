@@ -15,7 +15,6 @@ class SaldoApi
     {
         $saldo = Saldo::all()->sortByDesc('id')->take(1);  
         //Logs  
-        LogsE::escrever("saldo funcão get saldo atualizado ". strval(Saldo::all()) );        
         
         Log::debug('Saldo log: '. strval(Saldo::all()));
         Log::debug('Saldo: '. strval($saldo->pluck("valor_atualizado")->first()));
