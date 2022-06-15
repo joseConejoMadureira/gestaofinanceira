@@ -114,6 +114,12 @@
                 </div>
             </div>
             <div class="item">
+                <div class="header">log-viewer</div>
+                <div class="menu">
+                    <a href="/log-viewer" class="item">log-viewer</a>
+                </div>
+            </div>
+            <div class="item">
                 <div class="menu">
                     <form action="{{ route('logout') }}" method="POST">
                         @csrf
